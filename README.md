@@ -56,4 +56,5 @@ Currently, I am building agentic workflows using **LangGraph** and optimizing in
 
 * **LinkedIn:** [linkedin.com/in/zaafir-rizwan](https://www.linkedin.com/in/zaafir-rizwan)
 * **Email:** [zaafir.rizwan@gmail.com](mailto:zaafir.rizwan@gmail.com)
+* **Portfolio:** [zaafir-rizwan](https://zaafir-rizwan.tech)
 * **Location:** Islamabad, Pakistan (Open to Remote/Relocation)
