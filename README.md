@@ -43,11 +43,7 @@ Currently, I am building agentic workflows using **LangGraph** and optimizing in
 
 ---
 
-### 📊 GitHub Analytics
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ZaafirRizwan&theme=minimal&hide_border=true)](https://git.io/streak-stats)
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=ZaafirRizwan&theme=flat&no-frame=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 ---
 
 ### 📫 Connect
