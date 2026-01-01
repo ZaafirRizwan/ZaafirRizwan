@@ -46,7 +46,7 @@ Currently, I am building agentic workflows using **LangGraph** and optimizing in
 ### 📊 GitHub Analytics
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZaafirRizwan&show_icons=true&theme=minimal&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZaafirRizwan&show_icons=true&theme=minimal&hide_border=true" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaafirRizwan&layout=compact&theme=minimal&hide_border=true" height="150" alt="languages graph" />
 </div>
 
