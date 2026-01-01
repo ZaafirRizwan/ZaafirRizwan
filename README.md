@@ -50,7 +50,7 @@ A production-grade Retrieval-Augmented Generation system designed for querying c
 > *Computer Vision & Multimodal LLMs*
 Zero-shot video understanding pipeline for automated content moderation and analysis.
 
-* **Methodology:** Integrated **Gemini 1.5 Pro** with **Grounding DINO** to perform temporal object detection and scene understanding without custom training.
+* **Methodology:** Integrated **Gemini 2.5 Pro** with **Grounding DINO** to perform temporal object detection and scene understanding without custom training.
 * **Performance:** Achieved **92% precision** in automated footage tagging, outperforming baseline ResNet models.
 * **Stack:** `Python` `Gemini API` `Grounding DINO` `Docker`
 
