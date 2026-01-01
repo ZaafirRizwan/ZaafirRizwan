@@ -45,11 +45,9 @@ Currently, I am building agentic workflows using **LangGraph** and optimizing in
 
 ### 📊 GitHub Analytics
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZaafirRizwan&show_icons=true&theme=minimal&hide_border=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaafirRizwan&layout=compact&theme=minimal&hide_border=true" height="150" alt="languages graph" />
-</div>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ZaafirRizwan&theme=minimal&hide_border=true)](https://git.io/streak-stats)
 
+[![Trophies](https://github-profile-trophy.vercel.app/?username=ZaafirRizwan&theme=flat&no-frame=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 ---
 
 ### 📫 Connect
