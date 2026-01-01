@@ -67,11 +67,6 @@ A stateful multi-agent system designed to parse, score, and screen candidate pro
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zaafir-rizwan&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaafir-rizwan&layout=compact&theme=radical"/>
-</div>
-
-<div align="center">
   <br>
   <img src="https://komarev.com/ghpvc/?username=zaafir-rizwan&style=flat-square&color=blueviolet" alt="Profile views" />
 </div>
