@@ -1,72 +1,124 @@
 <div align="center">
-  <h1>Hi, I'm Zaafir Rizwan 👋</h1>
-  <h3>AI Engineer | Generative AI & MLOps Specialist</h3>
-  
-  <p>
-    <i>Architecting autonomous agents, scalable RAG pipelines, and cloud-native ML infrastructure.</i>
-  </p>
 
-  <a href="https://linkedin.com/in/zaafir-rizwan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:zaafir.rizwan@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://zaafir-rizwan.tech"><img src="https://img.shields.io/badge/Portfolio-100000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+# Hi, I'm Zaafir Rizwan 👋
+
+### AI Engineer building agentic systems, RAG infrastructure, and production ML workflows
+
+I design practical AI systems that move from demo to deployment: retrieval pipelines, multi-agent workflows, model-serving backends, and cloud-native ML infrastructure.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaafir%20Rizwan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
+[![Email](https://img.shields.io/badge/Email-zaafir.rizwan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-zaafir--rizwan.tech-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://zaafir-rizwan.tech)
+
 </div>
+
+---
+
+## What I build
+
+I focus on the layer where **LLMs, retrieval, automation, and infrastructure** meet.
+
+- **Agentic AI systems** — LangGraph workflows, tool-using agents, memory, evaluation loops, and human-in-the-loop checkpoints.
+- **RAG and search infrastructure** — hybrid retrieval, vector search, reranking, chunking strategies, ingestion pipelines, and latency optimization.
+- **Production ML systems** — FastAPI services, Dockerized deployments, cloud workflows, CI/CD, model monitoring, and scalable inference.
+- **Applied AI products** — resume screening, video understanding, BIM/floor-plan automation, voice agents, and domain-specific assistants.
+
+---
+
+## Selected work
+
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [`mini-agentic-rag-system`](https://github.com/ZaafirRizwan/mini-agentic-rag-system) | Agentic retrieval pipeline with structured reasoning and tool orchestration | LangGraph, RAG, Python |
+| [`Building-Autonomous-AI-Agents-with-LangGraph`](https://github.com/ZaafirRizwan/Building-Autonomous-AI-Agents-with-LangGraph) | Autonomous agent patterns, graph-based state, and iterative workflows | LangGraph, LLMs, Agents |
+| [`Rag_log_analysis`](https://github.com/ZaafirRizwan/Rag_log_analysis) | RAG-driven analysis for logs, diagnostics, and operational insight | RAG, Vector Search, Python |
+| [`local-rag`](https://github.com/ZaafirRizwan/local-rag) | Local-first retrieval system for private document question answering | Embeddings, Vector DB, Python |
+| [`resume-fit`](https://github.com/ZaafirRizwan/resume-fit) | AI-assisted resume matching and candidate scoring workflow | LLMs, FastAPI, Automation |
+| [`video-understanding`](https://github.com/ZaafirRizwan/video-understanding) | Multimodal video analysis and scene understanding experiments | Gemini, CV, Python |
+| [`bim-agent`](https://github.com/ZaafirRizwan/bim-agent) | AI agent concepts for BIM, floor plans, and built-environment workflows | Agents, Vision, Automation |
+
+---
+
+## Engineering highlights
+
+### Enterprise-style RAG systems
+Built retrieval workflows for complex unstructured data with hybrid search, reranking, ingestion orchestration, and production-minded API design.
+
+**Keywords:** `RAG` `Hybrid Search` `Embeddings` `Vector Databases` `Reranking` `FastAPI`
+
+### Multi-agent orchestration
+Designed graph-based agent flows where agents can plan, call tools, critique outputs, refine results, and pause for human review when confidence or risk requires it.
+
+**Keywords:** `LangGraph` `Tool Calling` `State Machines` `Evaluation Loops` `Human-in-the-Loop`
+
+### Multimodal AI pipelines
+Worked on video, document, image, and spatial-understanding workflows that combine LLM reasoning with computer vision and structured outputs.
+
+**Keywords:** `Gemini` `Computer Vision` `Grounding DINO` `Document AI` `Video Understanding`
+
+### MLOps and cloud deployment
+Built and practiced deployment patterns for model-backed services: containers, CI/CD, cloud infrastructure, reproducible pipelines, and model-serving foundations.
+
+**Keywords:** `Docker` `AWS` `GCP` `SageMaker` `DVC` `CI/CD` `Kubernetes`
+
+---
+
+## Technical toolkit
+
+<table>
+  <tr>
+    <td><strong>AI / LLMs</strong></td>
+    <td>LangChain · LangGraph · LlamaIndex · OpenAI · Gemini · Hugging Face</td>
+  </tr>
+  <tr>
+    <td><strong>Retrieval</strong></td>
+    <td>Pinecone · Weaviate · FAISS · embeddings · hybrid search · reranking</td>
+  </tr>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>Python · FastAPI · PostgreSQL · REST APIs · background jobs</td>
+  </tr>
+  <tr>
+    <td><strong>ML / CV</strong></td>
+    <td>PyTorch · TensorFlow · scikit-learn · OpenCV · Grounding DINO</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud / MLOps</strong></td>
+    <td>AWS · GCP · Docker · Kubernetes · Terraform · DVC · GitHub Actions</td>
+  </tr>
+</table>
+
+---
+
+## How I think about AI engineering
+
+> The best AI systems are not just prompts. They are reliable software systems with clear data contracts, observability, evaluation, guardrails, and a path to production.
+
+I care about:
+
+- making AI outputs measurable, testable, and explainable;
+- building systems that fail safely instead of silently;
+- reducing latency and cost without sacrificing answer quality;
+- shipping useful products, not just impressive demos.
+
+---
+
+## Open to
+
+- AI Engineer, GenAI Engineer, MLOps Engineer, or Applied ML Engineer roles
+- Agentic AI / RAG / LLM infrastructure projects
+- Startup teams building AI-native products
+- Consulting or prototype-to-production work
+
+<div align="center">
+
+### Let’s build systems that make AI useful in the real world.
+
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
+[![Email](https://img.shields.io/badge/Email%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
 
 <br />
 
-## 🚀 Engineering Philosophy
+![Profile views](https://komarev.com/ghpvc/?username=ZaafirRizwan&style=flat-square&color=blueviolet)
 
-I bridge the gap between **state-of-the-art research** and **scalable production systems**. My work focuses on moving LLMs beyond chatbots into **agentic workflows** and **deterministic RAG pipelines** that drive measurable business results. 
-
-Currently, I am:
-* Building **multi-agent orchestration layers** using **LangGraph**.
-* Optimizing high-throughput inference pipelines on **AWS/GCP** using **vLLM** and **Triton**.
-
----
-
-## 🛠️ Technical Stack
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Generative AI** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-FF4B4B?style=flat-square) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=flat-square) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini_Pro-8E75B2?style=flat-square&logo=google&logoColor=white) |
-| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
-| **MLOps & Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) |
-| **Vector Search** | ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square) ![Weaviate](https://img.shields.io/badge/Weaviate-FA3C50?style=flat-square) ![FAISS](https://img.shields.io/badge/FAISS-0058cc?style=flat-square) |
-| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) |
-
----
-
-## 🔬 Featured Engineering
-
-### 1. Enterprise Multimodal RAG System
-> *Architecture & Infrastructure*
-A production-grade Retrieval-Augmented Generation system designed for querying complex unstructured data (documents + schematics).
-
-* **Architecture:** Implemented **Hybrid Search (Dense + Sparse)** with Cross-Encoder re-ranking to maximize context relevance.
-* **Infrastructure:** Deployed on **AWS ECS** using containerized microservices; orchestrated vector indexing via **Pinecone**.
-* **Impact:** Reduced information retrieval latency by **45%** and successfully scaled to handle **10k+ concurrent queries**.
-* **Stack:** `LangChain` `OpenAI` `Pinecone` `AWS ECS`
-
-### 2. Video Intelligence Pipeline
-> *Computer Vision & Multimodal LLMs*
-Zero-shot video understanding pipeline for automated content moderation and analysis.
-
-* **Methodology:** Integrated **Gemini 2.5 Pro** with **Grounding DINO** to perform temporal object detection and scene understanding without custom training.
-* **Performance:** Achieved **92% precision** in automated footage tagging, outperforming baseline ResNet models.
-* **Stack:** `Python` `Gemini API` `Grounding DINO` `Docker`
-
-### 3. Autonomous Recruitment Agent
-> *Agentic Workflows*
-A stateful multi-agent system designed to parse, score, and screen candidate profiles automatically.
-
-* **Design:** Built using **LangGraph** to manage cyclic graph flows, allowing agents to "critique" and "refine" candidate scores. Implemented **human-in-the-loop** breakpoints for final approval.
-* **Impact:** Reduced manual HR screening time by **60%**, processing 500+ resumes/hour.
-* **Stack:** `LangGraph` `FastAPI` `Python` `Postgres`
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=zaafir-rizwan&style=flat-square&color=blueviolet" alt="Profile views" />
 </div>
