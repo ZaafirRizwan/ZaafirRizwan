@@ -148,6 +148,8 @@ I am interested in:
 
 <br />
 
-![Profile views](https://komarev.com/ghpvc/?username=ZaafirRizwan\&style=flat-square\&color=blueviolet)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ZaafirRizwan&style=flat-square&color=blueviolet" alt="Profile views" />
+</p>
 
 </div>
