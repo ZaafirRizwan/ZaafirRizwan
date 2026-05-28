@@ -2,9 +2,9 @@
 
 # Zaafir Rizwan
 
-### Building intelligent systems: agents, retrieval pipelines, automation, and production ML workflows
+### Building AI, data, cloud, and automation systems from idea to production
 
-I build practical software that connects modern models with real data, tools, APIs, and deployment infrastructure.
+I build practical software across **AI applications, data pipelines, voice automation, computer vision, image generation, cloud infrastructure, and backend systems**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaafir%20Rizwan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
 [![Email](https://img.shields.io/badge/Email-zaafir.rizwan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
@@ -16,51 +16,55 @@ I build practical software that connects modern models with real data, tools, AP
 
 ```txt
 SYSTEM PROFILE
-────────────────────────────────────────────
+────────────────────────────────────────────────────
 Name        Zaafir Rizwan
-Focus       Agents · RAG · Automation · MLOps
-Builds      Intelligent products from prototype to production
-Stack       Python · LangGraph · FastAPI · Vector Search · Cloud
-Signal      Open to serious AI/product engineering opportunities
-────────────────────────────────────────────
+Focus       AI Apps · Data Engineering · Cloud · Automation
+Builds      Intelligent systems that connect models, data, APIs, and users
+Stack       Python · FastAPI · AWS · Bedrock · LangGraph · Data Pipelines
+Direction   Product-minded engineering across modern AI and cloud workflows
+────────────────────────────────────────────────────
 ```
 
 ## What I build
 
-I work on the layer where **models, retrieval, automation, and backend systems** meet.
+I work across the full stack of modern AI products: **data, models, APIs, cloud, automation, and user-facing workflows**.
 
-- **Agent workflows** with graph-based state, tool calling, memory, evaluation loops, and human review
-- **Retrieval systems** for documents, logs, resumes, video, floor plans, and domain-specific knowledge
-- **Automation products** that turn repetitive workflows into intelligent, API-driven systems
-- **Production ML services** with clean APIs, containers, cloud deployment, and scalable infrastructure
-- **Multimodal systems** that combine text, image, video, and structured data into useful workflows
+- **AI applications** using LLMs, agents, retrieval, function calling, structured outputs, and workflow automation
+- **Data engineering pipelines** for ingestion, transformation, storage, search, analytics, and production data flows
+- **Voice AI systems** for speech interfaces, calling workflows, transcription, summarization, and automation
+- **Image and multimodal systems** for image generation, document understanding, video analysis, and vision workflows
+- **Cloud-native backends** using APIs, containers, queues, databases, serverless services, and scalable deployment patterns
+- **AWS and Bedrock workflows** for building model-powered applications on managed cloud infrastructure
 
 ---
 
-## System architecture I care about
+## System architecture I like building
 
 ```mermaid
 flowchart LR
-    A[Raw Data] --> B[Ingestion]
-    B --> C[Chunking]
-    C --> D[Embeddings]
-    D --> E[Vector Search]
-    E --> F[Reranking]
-    F --> G[Model Reasoning]
+    A[Users / Business Workflow] --> B[API Layer]
+    B --> C[Orchestration]
 
-    G --> H[Tool Calling]
-    H --> I[Agent State]
-    I --> G
+    D[Documents] --> H[Data Pipeline]
+    E[Audio / Voice] --> H
+    F[Images / Video] --> H
+    G[Structured Data] --> H
 
-    G --> J[API Layer]
-    J --> K[Dockerized Service]
-    K --> L[Cloud Deployment]
-    L --> M[Monitoring + Evaluation]
+    H --> I[Storage + Search]
+    I --> C
+
+    C --> J[LLMs / Bedrock / Vision Models]
+    J --> K[Tools + Automations]
+    K --> L[Product Output]
+
+    L --> M[Monitoring]
+    M --> N[Evaluation + Iteration]
+    N --> C
 ```
 
 <div align="center">
 
-**Data → retrieval → reasoning → tools → deployment → evaluation**
+**Data → cloud → models → automation → product → feedback loop**
 
 </div>
 
@@ -68,43 +72,43 @@ flowchart LR
 
 ## Featured projects
 
-| Project | What it proves | Stack |
+| Project | What it shows | Area |
 | --- | --- | --- |
-| [`mini-agentic-rag-system`](https://github.com/ZaafirRizwan/mini-agentic-rag-system) | Agentic retrieval workflow with structured reasoning and tool orchestration | LangGraph · RAG · Python |
-| [`Building-Autonomous-AI-Agents-with-LangGraph`](https://github.com/ZaafirRizwan/Building-Autonomous-AI-Agents-with-LangGraph) | Autonomous agent patterns, graph state, and iterative workflows | LangGraph · LLMs · Agents |
-| [`Rag_log_analysis`](https://github.com/ZaafirRizwan/Rag_log_analysis) | Retrieval-based analysis for logs, diagnostics, and operational insight | RAG · Vector Search · Python |
-| [`local-rag`](https://github.com/ZaafirRizwan/local-rag) | Local-first private document question answering | Embeddings · Vector DB · Python |
-| [`resume-fit`](https://github.com/ZaafirRizwan/resume-fit) | Resume matching and candidate scoring workflow | LLMs · FastAPI · Automation |
-| [`video-understanding`](https://github.com/ZaafirRizwan/video-understanding) | Multimodal video analysis and scene understanding | Gemini · Computer Vision · Python |
-| [`bim-agent`](https://github.com/ZaafirRizwan/bim-agent) | Agent concepts for BIM, floor plans, and built-environment workflows | Agents · Vision · Automation |
+| [`mini-agentic-rag-system`](https://github.com/ZaafirRizwan/mini-agentic-rag-system) | Model orchestration, retrieval, reasoning, and tool use | AI Applications |
+| [`Building-Autonomous-AI-Agents-with-LangGraph`](https://github.com/ZaafirRizwan/Building-Autonomous-AI-Agents-with-LangGraph) | Agent workflows, graph state, planning loops, and automation patterns | Agents / Automation |
+| [`Rag_log_analysis`](https://github.com/ZaafirRizwan/Rag_log_analysis) | Log analysis, data search, and operational intelligence | Data + AI |
+| [`local-rag`](https://github.com/ZaafirRizwan/local-rag) | Private document intelligence and local-first AI workflows | Knowledge Systems |
+| [`resume-fit`](https://github.com/ZaafirRizwan/resume-fit) | Resume matching, scoring, and workflow automation | AI Product |
+| [`video-understanding`](https://github.com/ZaafirRizwan/video-understanding) | Video analysis, multimodal reasoning, and computer vision workflows | Multimodal AI |
+| [`bim-agent`](https://github.com/ZaafirRizwan/bim-agent) | Built-environment automation with spatial/document reasoning | Applied AI |
 
 ---
 
-## Core strengths
+## Core engineering areas
 
-### Agentic systems
+### AI product engineering
 
-I design workflows where models can plan, use tools, maintain state, critique outputs, and hand off to humans when needed.
+I build model-powered applications that combine prompts, tools, APIs, memory, structured outputs, and real user workflows.
 
-`LangGraph` · `LangChain` · `Tool Calling` · `State Machines` · `Human-in-the-Loop` · `Evaluation`
+`OpenAI` · `Gemini` · `AWS Bedrock` · `LangGraph` · `LangChain` · `Structured Outputs` · `Tool Calling`
 
-### Retrieval and search
+### Data engineering and intelligent pipelines
 
-I build retrieval pipelines that make model outputs more grounded, relevant, and useful on private or domain-specific data.
+I design pipelines that move data from raw sources into systems that can search, analyze, reason, and automate.
 
-`RAG` · `Embeddings` · `Vector Databases` · `Hybrid Search` · `Reranking` · `Document Ingestion`
+`Python` · `ETL/ELT` · `PostgreSQL` · `Vector Search` · `Data Ingestion` · `Analytics` · `Automation`
 
-### Backend and deployment
+### Voice, vision, and multimodal systems
 
-I care about the engineering around the model: APIs, jobs, containers, data contracts, observability, and reliable deployment.
+I work with audio, image, video, documents, and structured data to build systems that understand more than text.
 
-`Python` · `FastAPI` · `PostgreSQL` · `Docker` · `AWS` · `GCP` · `GitHub Actions`
+`Voice AI` · `Transcription` · `Image Generation` · `Computer Vision` · `Video Understanding` · `Document AI`
 
-### Multimodal workflows
+### Cloud and backend systems
 
-I work with systems that combine language, images, video, documents, and spatial data.
+I care about making ideas deployable: clean APIs, scalable services, cloud infrastructure, observability, and maintainable architecture.
 
-`Gemini` · `Computer Vision` · `OpenCV` · `Document AI` · `Video Understanding` · `Automation`
+`FastAPI` · `Docker` · `AWS` · `GCP` · `Bedrock` · `SageMaker` · `Lambda` · `CI/CD`
 
 ---
 
@@ -112,24 +116,24 @@ I work with systems that combine language, images, video, documents, and spatial
 
 <table>
   <tr>
-    <td><strong>LLMs / Agents</strong></td>
-    <td>LangGraph · LangChain · LlamaIndex · OpenAI · Gemini · Hugging Face</td>
+    <td><strong>AI / LLMs</strong></td>
+    <td>OpenAI · Gemini · AWS Bedrock · LangGraph · LangChain · LlamaIndex · Hugging Face</td>
   </tr>
   <tr>
-    <td><strong>Retrieval</strong></td>
-    <td>Pinecone · Weaviate · FAISS · embeddings · hybrid search · reranking</td>
+    <td><strong>Data</strong></td>
+    <td>Python · SQL · PostgreSQL · ETL/ELT · data ingestion · analytics · search pipelines</td>
+  </tr>
+  <tr>
+    <td><strong>Voice / Multimodal</strong></td>
+    <td>Speech workflows · transcription · image generation · computer vision · video understanding · document AI</td>
   </tr>
   <tr>
     <td><strong>Backend</strong></td>
-    <td>Python · FastAPI · PostgreSQL · REST APIs · background workers</td>
-  </tr>
-  <tr>
-    <td><strong>ML / Vision</strong></td>
-    <td>PyTorch · TensorFlow · scikit-learn · OpenCV · Grounding DINO</td>
+    <td>FastAPI · REST APIs · background workers · queues · authentication · databases</td>
   </tr>
   <tr>
     <td><strong>Cloud / MLOps</strong></td>
-    <td>AWS · GCP · Docker · Kubernetes · Terraform · DVC · CI/CD</td>
+    <td>AWS · GCP · Docker · Kubernetes · Terraform · SageMaker · GitHub Actions · CI/CD</td>
   </tr>
 </table>
 
@@ -137,40 +141,43 @@ I work with systems that combine language, images, video, documents, and spatial
 
 ## How I think
 
-> Strong AI products are not just prompts. They are reliable systems with clean data flow, useful retrieval, evaluation, observability, guardrails, and deployment discipline.
+> Good AI products are not just prompts. They are systems: data pipelines, model orchestration, cloud infrastructure, backend APIs, evaluation, automation, and user experience working together.
 
 I like building systems that are:
 
 - useful beyond a demo
-- grounded in real data
-- measurable and testable
-- built for latency, cost, and reliability
-- designed so teams can trust them
+- connected to real data and real workflows
+- reliable enough to run in production
+- designed for latency, cost, and maintainability
+- flexible across text, voice, image, video, and structured data
+- built with a product mindset, not just a model-first mindset
 
 ---
 
 ## Current direction
 
-- Agentic RAG systems
-- AI workflow automation
-- Multimodal document/video understanding
-- Production patterns for AI-native applications
-- Practical tools that reduce manual work
+- AI agents and workflow automation
+- Voice AI and real-time assistant experiences
+- Image generation and multimodal AI products
+- Data engineering for AI-ready systems
+- AWS Bedrock and cloud-native AI applications
+- Backend infrastructure for AI products
 
 ---
 
 ## Open to
 
-- AI product engineering roles
-- Generative AI / LLM application roles
-- Applied ML engineering roles
-- MLOps and ML infrastructure roles
+- AI Product Engineer roles
+- Data Engineer / AI Data Engineer roles
+- Generative AI application roles
+- Cloud / AWS / Bedrock-focused engineering roles
+- Backend roles involving AI, automation, or data systems
 - Startup teams building practical AI-native products
 - Prototype-to-production consulting work
 
 <div align="center">
 
-### If you are building intelligent systems, let’s connect.
+### If you are building useful AI, data, or cloud systems, let’s connect.
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
 [![Email Me](https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
