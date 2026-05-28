@@ -165,15 +165,6 @@ I like building systems that are:
 
 ---
 
-## Open to
-
-- AI Product Engineer roles
-- Data Engineer / AI Data Engineer roles
-- Generative AI application roles
-- Cloud / AWS / Bedrock-focused engineering roles
-- Backend roles involving AI, automation, or data systems
-- Startup teams building practical AI-native products
-- Prototype-to-production consulting work
 
 <div align="center">
 
