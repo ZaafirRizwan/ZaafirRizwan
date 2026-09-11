@@ -136,8 +136,11 @@ Before that: ELT pipelines on Azure Data Factory, a video-intelligence pipeline 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ZaafirRizwan&show_icons=true&hide_border=true&bg_color=0B1020&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&hide=contribs&rank_icon=github" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaafirRizwan&layout=compact&hide_border=true&bg_color=0B1020&title_color=22D3EE&text_color=94A3B8&langs_count=6" height="165" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZaafirRizwan&theme=tokyonight" width="100%" alt="GitHub profile summary" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=ZaafirRizwan&hide_border=true&background=0B1020&ring=22D3EE&fire=A78BFA&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B&stroke=1E293B" height="170" alt="Contribution streak" />
 
 <br/><br/>
 
