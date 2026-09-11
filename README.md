@@ -136,14 +136,6 @@ Before that: ELT pipelines on Azure Data Factory, a video-intelligence pipeline 
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZaafirRizwan&theme=tokyonight" width="100%" alt="GitHub profile summary" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=ZaafirRizwan&hide_border=true&background=0B1020&ring=22D3EE&fire=A78BFA&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B&stroke=1E293B" height="170" alt="Contribution streak" />
-
-<br/><br/>
-
 ### Building agents, retrieval, voice, or data systems that have to work at 3 a.m.? Let's talk.
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
