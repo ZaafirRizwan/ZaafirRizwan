@@ -1,180 +1,151 @@
 <div align="center">
 
-# Zaafir Rizwan
+<img src="assets/banner.svg" alt="Zaafir Rizwan — AI Engineer building production voice agents" width="100%" />
 
-### Building AI, data, cloud, and automation systems from idea to production
+<br/>
 
-I build practical software across **AI applications, data pipelines, voice automation, computer vision, image generation, cloud infrastructure, and backend systems**.
+<a href="https://github.com/ZaafirRizwan">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&multiline=false&repeat=true&width=720&height=40&lines=Real-time+phone+agents+on+LiveKit+%2B+SIP;RAG+over+each+customer's+own+knowledge+base;LLM+%2F+STT+%2F+TTS+failover+that+fires+before+the+caller+hears+silence;Every+call+traced+with+OpenTelemetry+into+ClickHouse" alt="What I build" />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaafir%20Rizwan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-zaafir--rizwan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
 [![Email](https://img.shields.io/badge/Email-zaafir.rizwan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-zaafir--rizwan.tech-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://zaafir-rizwan.tech)
+[![Portfolio](https://img.shields.io/badge/Portfolio-zaafir--rizwan.tech-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://zaafir-rizwan.tech)
 
 </div>
 
----
+<br/>
 
-```txt
-SYSTEM PROFILE
-────────────────────────────────────────────────────
-Name        Zaafir Rizwan
-Focus       AI Apps · Data Engineering · Cloud · Automation
-Builds      Intelligent systems that connect models, data, APIs, and users
-Stack       Python · FastAPI · AWS · Bedrock · LangGraph · Data Pipelines
-Direction   Product-minded engineering across modern AI and cloud workflows
-────────────────────────────────────────────────────
-```
+## Right now
 
-## What I build
-
-I work across the full stack of modern AI products: **data, models, APIs, cloud, automation, and user-facing workflows**.
-
-- **AI applications** using LLMs, agents, retrieval, function calling, structured outputs, and workflow automation
-- **Data engineering pipelines** for ingestion, transformation, storage, search, analytics, and production data flows
-- **Voice AI systems** for speech interfaces, calling workflows, transcription, summarization, and automation
-- **Image and multimodal systems** for image generation, document understanding, video analysis, and vision workflows
-- **Cloud-native backends** using APIs, containers, queues, databases, serverless services, and scalable deployment patterns
-- **AWS and Bedrock workflows** for building model-powered applications on managed cloud infrastructure
-
----
-
-## System architecture I like building
-
-```mermaid
-flowchart LR
-    A[Users / Business Workflow] --> B[API Layer]
-    B --> C[Orchestration]
-
-    D[Documents] --> H[Data Pipeline]
-    E[Audio / Voice] --> H
-    F[Images / Video] --> H
-    G[Structured Data] --> H
-
-    H --> I[Storage + Search]
-    I --> C
-
-    C --> J[LLMs / Bedrock / Vision Models]
-    J --> K[Tools + Automations]
-    K --> L[Product Output]
-
-    L --> M[Monitoring]
-    M --> N[Evaluation + Iteration]
-    N --> C
-```
+**Senior AI Engineer at TriFusionTech.** I own the Python runtime behind a multi-tenant voice-AI platform: autonomous phone agents that answer, route, and resolve live customer calls, running across **600+ production agents**. Everything from the first audio frame to the SIP transfer that hands the caller to a human.
 
 <div align="center">
-
-**Data → cloud → models → automation → product → feedback loop**
-
+<img src="assets/pipeline.svg" alt="Animated diagram: one call flowing through the voice agent runtime" width="100%" />
 </div>
 
----
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🎙️ Voice runtime
+- Streaming STT → LLM → TTS on **LiveKit Agents**
+- Turn-taking, barge-in, endpointing, DTMF
+- Blind + warm transfers over **SIP REFER**, REFER+Replaces, DTMF confirm, BLF checks
+- Answering-machine + IVR detection for outbound
+- Screen sharing into multimodal LLM calls
+
+</td>
+<td width="33%" valign="top">
+
+### 📚 Retrieval & reliability
+- Ingestion worker: S3 → MinerU → chunking → embeddings → **Qdrant**
+- In-call retriever with query rewriting, per-KB isolation
+- Fallback chains across OpenAI, Anthropic, xAI, Deepgram, Cartesia, ElevenLabs
+- First-token stall guard that fails over mid-turn
+- Supabase → **Redis** config cache with realtime sync
+
+</td>
+<td width="33%" valign="top">
+
+### 🧩 Platform & product
+- In-call payments on **Stripe Connect** with idempotency + guardrails
+- Tool integrations: calendars, PBX SMS, webhooks, **MCP** servers, ERPs
+- **OpenTelemetry → ClickHouse** metrics, cost and usage per org
+- Next.js 15 dashboards, public v1 REST API, feature gating
+- 130+ pytest modules incl. LLM-judged behavioral tests
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ## Featured projects
 
-| Project | What it shows | Area |
+| Project | What it shows | Stack |
 | --- | --- | --- |
-| [`luma-bistro-livekit-voice-agent`](https://github.com/ZaafirRizwan/luma-bistro-livekit-voice-agent) | Real-time LiveKit voice agent: streaming STT/TTS, barge-in, guarded and idempotent reservation tools | Voice AI |
-| [`mini-agentic-rag-system`](https://github.com/ZaafirRizwan/mini-agentic-rag-system) | Model orchestration, retrieval, reasoning, and tool use | AI Applications |
-| [`Rag_log_analysis`](https://github.com/ZaafirRizwan/Rag_log_analysis) | Hybrid BM25 + FAISS retrieval with self-corrective query rewriting over logs | Data + AI |
-| [`resume-fit`](https://github.com/ZaafirRizwan/resume-fit) | Resume matching and scoring product on FastAPI, React, PostgreSQL, and Celery | AI Product |
-| [`Building-Autonomous-AI-Agents-with-LangGraph`](https://github.com/ZaafirRizwan/Building-Autonomous-AI-Agents-with-LangGraph) | Agent workflows, graph state, planning loops, and automation patterns | Agents / Automation |
-| [`Inventory_Monitoring_at_Fullfillment_Centers_using_Sagemaker`](https://github.com/ZaafirRizwan/Inventory_Monitoring_at_Fullfillment_Centers_using_Sagemaker) | Item-counting pipeline with deep learning and real-time inference endpoints on AWS SageMaker | Computer Vision / AWS |
-| [`Predict-Bike-Sharing-Demand-with-AutoGluon`](https://github.com/ZaafirRizwan/Predict-Bike-Sharing-Demand-with-AutoGluon) | Demand-forecasting regression with AutoGluon AutoML and automated hyperparameter tuning | ML / Forecasting |
+| [**luma-bistro-livekit-voice-agent**](https://github.com/ZaafirRizwan/luma-bistro-livekit-voice-agent) | Browser voice call with streaming STT/TTS, interruption-aware turns, and guarded, idempotent reservation tools | `LiveKit` `Deepgram Flux` `Cartesia` `FastAPI` |
+| [**mini-agentic-rag-system**](https://github.com/ZaafirRizwan/mini-agentic-rag-system) | Agentic RAG with graph-style retrieval, custom tools, memory, and multi-step execution | `LangGraph` `Python` |
+| [**Rag_log_analysis**](https://github.com/ZaafirRizwan/Rag_log_analysis) | Hybrid BM25 + FAISS retrieval with self-corrective query rewriting over logs | `Gemini` `FAISS` `Flask` |
+| [**resume-fit**](https://github.com/ZaafirRizwan/resume-fit) | Resume-to-job match scoring with skill-gap analysis, shipped as a full product | `FastAPI` `React` `PostgreSQL` `Celery` |
+| [**Inventory_Monitoring…Sagemaker**](https://github.com/ZaafirRizwan/Inventory_Monitoring_at_Fullfillment_Centers_using_Sagemaker) | Item-counting pipeline with deep learning and real-time inference endpoints | `SageMaker` `PyTorch` |
+| [**Predict-Bike-Sharing-Demand**](https://github.com/ZaafirRizwan/Predict-Bike-Sharing-Demand-with-AutoGluon) | Demand-forecasting regression with AutoML and automated hyperparameter tuning | `AutoGluon` |
 
----
+<br/>
 
-## Core engineering areas
-
-### AI product engineering
-
-I build model-powered applications that combine prompts, tools, APIs, memory, structured outputs, and real user workflows.
-
-`OpenAI` · `Gemini` · `AWS Bedrock` · `LangGraph` · `LangChain` · `Structured Outputs` · `Tool Calling`
-
-### Data engineering and intelligent pipelines
-
-I design pipelines that move data from raw sources into systems that can search, analyze, reason, and automate.
-
-`Python` · `ETL/ELT` · `PostgreSQL` · `Vector Search` · `Data Ingestion` · `Analytics` · `Automation`
-
-### Voice, vision, and multimodal systems
-
-I work with audio, image, video, documents, and structured data to build systems that understand more than text.
-
-`Voice AI` · `Transcription` · `Image Generation` · `Computer Vision` · `Video Understanding` · `Document AI`
-
-### Cloud and backend systems
-
-I care about making ideas deployable: clean APIs, scalable services, cloud infrastructure, observability, and maintainable architecture.
-
-`FastAPI` · `Docker` · `AWS` · `GCP` · `Bedrock` · `SageMaker` · `Lambda` · `CI/CD`
-
----
-
-## Tech stack
-
-<table>
-  <tr>
-    <td><strong>AI / LLMs</strong></td>
-    <td>OpenAI · Gemini · AWS Bedrock · LangGraph · LangChain · LlamaIndex · Hugging Face</td>
-  </tr>
-  <tr>
-    <td><strong>Data</strong></td>
-    <td>Python · SQL · PostgreSQL · ETL/ELT · data ingestion · analytics · search pipelines</td>
-  </tr>
-  <tr>
-    <td><strong>Voice / Multimodal</strong></td>
-    <td>Speech workflows · transcription · image generation · computer vision · video understanding · document AI</td>
-  </tr>
-  <tr>
-    <td><strong>Backend</strong></td>
-    <td>FastAPI · REST APIs · background workers · queues · authentication · databases</td>
-  </tr>
-  <tr>
-    <td><strong>Cloud / MLOps</strong></td>
-    <td>AWS · GCP · Docker · Kubernetes · Terraform · SageMaker · GitHub Actions · CI/CD</td>
-  </tr>
-</table>
-
----
-
-## How I think
-
-> Good AI products are not just prompts. They are systems: data pipelines, model orchestration, cloud infrastructure, backend APIs, evaluation, automation, and user experience working together.
-
-I like building systems that are:
-
-- useful beyond a demo
-- connected to real data and real workflows
-- reliable enough to run in production
-- designed for latency, cost, and maintainability
-- flexible across text, voice, image, video, and structured data
-- built with a product mindset, not just a model-first mindset
-
----
-
-## Current direction
-
-- AI agents and workflow automation
-- Voice AI and real-time assistant experiences
-- Image generation and multimodal AI products
-- Data engineering for AI-ready systems
-- AWS Bedrock and cloud-native AI applications
-- Backend infrastructure for AI products
-
----
-
+## Stack
 
 <div align="center">
 
-### If you are building useful AI, data, or cloud systems, let’s connect.
+**Voice & agents**<br/>
+![LiveKit](https://img.shields.io/badge/LiveKit-0D1117?style=for-the-badge&logo=livekit&logoColor=22D3EE)
+![OpenAI](https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-0D1117?style=for-the-badge&logo=anthropic&logoColor=white)
+![Deepgram](https://img.shields.io/badge/Deepgram-0D1117?style=for-the-badge&logoColor=white)
+![Cartesia](https://img.shields.io/badge/Cartesia-0D1117?style=for-the-badge&logoColor=white)
+![SIP](https://img.shields.io/badge/SIP%20%2F%20WebRTC-0D1117?style=for-the-badge&logo=webrtc&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-0D1117?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=langchain&logoColor=white)
+
+**Data & retrieval**<br/>
+![Qdrant](https://img.shields.io/badge/Qdrant-0D1117?style=for-the-badge&logo=qdrant&logoColor=DC244C)
+![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=DC382D)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-0D1117?style=for-the-badge&logo=clickhouse&logoColor=FFCC01)
+![S3](https://img.shields.io/badge/AWS%20S3-0D1117?style=for-the-badge&logo=amazons3&logoColor=569A31)
+
+**Languages & web**<br/>
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)
+![Stripe](https://img.shields.io/badge/Stripe-0D1117?style=for-the-badge&logo=stripe&logoColor=635BFF)
+
+**Infra & observability**<br/>
+![AWS](https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![Azure](https://img.shields.io/badge/Azure-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=0078D4)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-0D1117?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-0D1117?style=for-the-badge&logo=grafana&logoColor=F46800)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
+![pytest](https://img.shields.io/badge/pytest-0D1117?style=for-the-badge&logo=pytest&logoColor=0A9EDC)
+
+</div>
+
+<br/>
+
+## How I think
+
+> A voice agent is judged in the 400 ms after the caller stops talking. Everything I build serves that moment: streaming everywhere, failover before silence, tools that fail closed, and telemetry on every span so the next incident is a query, not a guess.
+
+- **Production over demo.** Idempotency keys, guardrails, and audit rows are part of the feature, not follow-ups.
+- **Measure, don't assume.** Model capabilities, latencies, and provider quirks get tested, then recorded.
+- **Tests that would catch the bug.** Mutation-check the test before trusting it.
+- **Own the whole path.** Runtime, retrieval, dashboards, API, and docs, so the seams don't leak.
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=ZaafirRizwan&show_icons=true&hide_border=true&bg_color=0B1020&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&hide=contribs&rank_icon=github" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaafirRizwan&layout=compact&hide_border=true&bg_color=0B1020&title_color=22D3EE&text_color=94A3B8&langs_count=6" height="165" alt="Top languages" />
+
+<br/><br/>
+
+### Building voice, agents, or retrieval systems that have to work at 3 a.m.? Let's talk.
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
 [![Email Me](https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
 
-<br />
+<br/>
 
-![Profile views](https://komarev.com/ghpvc/?username=ZaafirRizwan&style=flat-square&color=gray)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,50:22D3EE,100:A78BFA&height=100&section=footer" width="100%" alt="" />
 
 </div>
