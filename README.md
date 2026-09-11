@@ -74,13 +74,13 @@ flowchart LR
 
 | Project | What it shows | Area |
 | --- | --- | --- |
+| [`luma-bistro-livekit-voice-agent`](https://github.com/ZaafirRizwan/luma-bistro-livekit-voice-agent) | Real-time LiveKit voice agent: streaming STT/TTS, barge-in, guarded and idempotent reservation tools | Voice AI |
 | [`mini-agentic-rag-system`](https://github.com/ZaafirRizwan/mini-agentic-rag-system) | Model orchestration, retrieval, reasoning, and tool use | AI Applications |
+| [`Rag_log_analysis`](https://github.com/ZaafirRizwan/Rag_log_analysis) | Hybrid BM25 + FAISS retrieval with self-corrective query rewriting over logs | Data + AI |
+| [`resume-fit`](https://github.com/ZaafirRizwan/resume-fit) | Resume matching and scoring product on FastAPI, React, PostgreSQL, and Celery | AI Product |
 | [`Building-Autonomous-AI-Agents-with-LangGraph`](https://github.com/ZaafirRizwan/Building-Autonomous-AI-Agents-with-LangGraph) | Agent workflows, graph state, planning loops, and automation patterns | Agents / Automation |
-| [`Rag_log_analysis`](https://github.com/ZaafirRizwan/Rag_log_analysis) | Log analysis, data search, and operational intelligence | Data + AI |
-| [`local-rag`](https://github.com/ZaafirRizwan/local-rag) | Private document intelligence and local-first AI workflows | Knowledge Systems |
-| [`resume-fit`](https://github.com/ZaafirRizwan/resume-fit) | Resume matching, scoring, and workflow automation | AI Product |
-| [`video-understanding`](https://github.com/ZaafirRizwan/video-understanding) | Video analysis, multimodal reasoning, and computer vision workflows | Multimodal AI |
-| [`bim-agent`](https://github.com/ZaafirRizwan/bim-agent) | Built-environment automation with spatial/document reasoning | Applied AI |
+| [`Inventory_Monitoring_at_Fullfillment_Centers_using_Sagemaker`](https://github.com/ZaafirRizwan/Inventory_Monitoring_at_Fullfillment_Centers_using_Sagemaker) | Item-counting pipeline with deep learning and real-time inference endpoints on AWS SageMaker | Computer Vision / AWS |
+| [`Predict-Bike-Sharing-Demand-with-AutoGluon`](https://github.com/ZaafirRizwan/Predict-Bike-Sharing-Demand-with-AutoGluon) | Demand-forecasting regression with AutoGluon AutoML and automated hyperparameter tuning | ML / Forecasting |
 
 ---
 
