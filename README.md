@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Zaafir Rizwan — AI Engineer building production voice agents" width="100%" />
+<img src="assets/banner.svg" alt="Zaafir Rizwan — AI Engineer building production LLM, RAG and voice systems" width="100%" />
 
 <br/>
 
 <a href="https://github.com/ZaafirRizwan">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&multiline=false&repeat=true&width=720&height=40&lines=Real-time+phone+agents+on+LiveKit+%2B+SIP;RAG+over+each+customer's+own+knowledge+base;LLM+%2F+STT+%2F+TTS+failover+that+fires+before+the+caller+hears+silence;Every+call+traced+with+OpenTelemetry+into+ClickHouse" alt="What I build" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&multiline=false&repeat=true&width=720&height=40&lines=LLM+agents+with+tool+calling%2C+MCP+and+provider+failover;RAG+pipelines%3A+ingestion+%E2%86%92+embeddings+%E2%86%92+Qdrant+%E2%86%92+answers;Real-time+voice+agents+over+SIP+and+WebRTC;Data+pipelines%2C+vision+and+forecasting+on+AWS+and+Azure;Every+request+traced+with+OpenTelemetry+into+ClickHouse" alt="What I build" />
 </a>
 
 <br/>
@@ -20,7 +20,9 @@
 
 ## Right now
 
-**Senior AI Engineer at TriFusionTech.** I own the Python runtime behind a multi-tenant voice-AI platform: autonomous phone agents that answer, route, and resolve live customer calls, running across **600+ production agents**. Everything from the first audio frame to the SIP transfer that hands the caller to a human.
+**Senior AI Engineer at TriFusionTech.** I own the Python runtime behind a multi-tenant voice-AI platform: autonomous phone agents that answer, route, and resolve live customer calls, running across **600+ production agents**. I own it from the first audio frame to the SIP transfer that hands the caller to a human, plus the RAG stack, Redis cache layer, observability, and the Next.js dashboards and public API around it.
+
+Before that: ELT pipelines on Azure Data Factory, a video-intelligence pipeline on Gemini and Grounding DINO, and real-time inference APIs on AWS SageMaker.
 
 <div align="center">
 <img src="assets/pipeline.svg" alt="Animated diagram: one call flowing through the voice agent runtime" width="100%" />
@@ -31,7 +33,7 @@
 <td width="33%" valign="top">
 
 ### 🎙️ Voice runtime
-- Streaming STT → LLM → TTS on **LiveKit Agents**
+- Streaming STT → LLM → TTS pipeline (Python, LiveKit Agents)
 - Turn-taking, barge-in, endpointing, DTMF
 - Blind + warm transfers over **SIP REFER**, REFER+Replaces, DTMF confirm, BLF checks
 - Answering-machine + IVR detection for outbound
@@ -123,7 +125,7 @@
 
 ## How I think
 
-> A voice agent is judged in the 400 ms after the caller stops talking. Everything I build serves that moment: streaming everywhere, failover before silence, tools that fail closed, and telemetry on every span so the next incident is a query, not a guess.
+> Users judge an AI product in the second after they stop talking or press enter. Everything I build serves that moment: streaming everywhere, failover before silence, tools that fail closed, and telemetry on every span so the next incident is a query, not a guess.
 
 - **Production over demo.** Idempotency keys, guardrails, and audit rows are part of the feature, not follow-ups.
 - **Measure, don't assume.** Model capabilities, latencies, and provider quirks get tested, then recorded.
@@ -139,7 +141,7 @@
 
 <br/><br/>
 
-### Building voice, agents, or retrieval systems that have to work at 3 a.m.? Let's talk.
+### Building agents, retrieval, voice, or data systems that have to work at 3 a.m.? Let's talk.
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
 [![Email Me](https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
