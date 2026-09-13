@@ -12,7 +12,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-zaafir--rizwan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zaafir-rizwan)
 [![Email](https://img.shields.io/badge/Email-zaafir.rizwan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaafir.rizwan@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-zaafir--rizwan.tech-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://zaafir-rizwan.tech)
 
 </div>
 
